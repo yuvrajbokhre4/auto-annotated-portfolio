@@ -84,7 +84,7 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-end
-    subtitle: 'Projects'
+    subtitle: Projects
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
@@ -193,4 +193,40 @@ sections:
         textAlign: left
       text:
         textAlign: left
+  - type: RecentPostsSection
+    subtitle: Posts
+    actions:
+      - type: Link
+        label: See all posts
+        altText: See all posts
+        url: /blog
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        elementId: ''
+    colors: colors-d
+    variant: variant-b
+    elementId: ''
+    recentCount: 3
+    showDate: true
+    showAuthor: false
+    showExcerpt: true
+    showFeaturedImage: false
+    showReadMoreLink: true
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-24
+          - pb-24
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: flex-end
 ---
